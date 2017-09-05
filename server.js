@@ -18,12 +18,6 @@ res.sendFile(path.join(__dirname,'ui','articletwo.html'));
 app.get('/articleone',function(req,res){ 
 res.sendFile(path.join(__dirname,'ui','articlethree.html'));
 });
-app.get('/articletwo', function(req,res){
-    res.send('article 2 is requested and will be served here');
-});
-app.get('/articlethree', function(req,res){
-    res.send('article 3 is requested and will be served here');
-});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
