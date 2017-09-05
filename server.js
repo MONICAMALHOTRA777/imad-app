@@ -15,7 +15,7 @@ res.sendFile(path.join(__dirname,'ui','articleone.html'));
 app.get('/articleone',function(req,res){ 
 res.sendFile(path.join(__dirname,'ui','articletwo.html'));
 });
-vapp.get('/articleone',function(req,res){ 
+app.get('/articleone',function(req,res){ 
 res.sendFile(path.join(__dirname,'ui','articlethree.html'));
 });
 app.get('/articletwo', function(req,res){
